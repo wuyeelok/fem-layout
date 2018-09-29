@@ -5,3 +5,8 @@ ul {
     height: 400px;
     align-items: center;
 }
+
+.flex2 {
+    border: 5px dotted blue;
+    order: 2;
+}
