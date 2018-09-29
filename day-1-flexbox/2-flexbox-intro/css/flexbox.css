@@ -9,5 +9,5 @@ ul {
 .flex2 {
     border: 5px dotted blue;
     order: 2;
-    flex-basis: 25%;
+    flex: 2 1 25%;
 }
