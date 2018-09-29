@@ -1,4 +1,5 @@
 ul {
     display: flex;
-    flex-flow: row-reverse wrap-reverse;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
