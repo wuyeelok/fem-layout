@@ -78,11 +78,12 @@ div.row {
   float: left;
   margin: 0 1em 1em 0;
 }
+*/
 .floatright {
   float: right;
   margin: 0 0 1em 1em;
 }
-*/
+
 [class*='sidebar'] {
   border: 1px solid #00c4c7;
   border-radius: 10px;
@@ -149,7 +150,7 @@ footer a {
   .col-4,
   .col-1-2,
   .col-1-4  {
-  width: 96.66666%;
+  flex: 0 0 94%;
 }
 
 .row {
@@ -165,6 +166,7 @@ footer a {
 ul li {
   flex: 0 0 50%;
 }
+
 
 /* Small devices (tablets, 768px and up) */
 
@@ -212,6 +214,21 @@ aside[class*='sidebar'] {
   }
   ul li {
     flex: 0 0 auto;
+  }
+
+  .col-1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+  }
+  
+  .col-1 aside {
+    flex: 0 0 40%;
+    margin-left: 4%;
+  }
+  
+  footer p {
+    flex: 0 0 94%;
   }
 }
 /* Large devices (large desktops, 1200px and up) */
