@@ -8,7 +8,9 @@
 	<!-- visit http://scottjehl.github.io/picturefill/ for picturefill source -->
 	<div class="bkgdimg"></div>
 	<picture>
-		<img src="img/peace-pie-original.jpg" alt="The original giant peace pie">
+		<source srcset="img/peace-pie-original.jpg" media="(min-width: 1200px)">
+		<source srcset="img/peace-pie-500.jpg" media="(min-width: 800px)">	
+		<img src="img/peace-pie-150.jpg" alt="The amazing peace pie at the appropriate dimemsion">
 	</picture>
 </body>
 </html>
