@@ -55,7 +55,8 @@ div img {
 	background-color: #ffc;
 }
 
-.col-2 {
+.col-2,
+.col-2-4 {
 	background-color: #ccf;
 }
 
@@ -77,8 +78,13 @@ div img {
 
 	.col-1-4,
 	.col-3,
-	.col-4 {
+	.col-4,
+	.col-2-4 {
 		flex: 0 0 92%;
+	}
+
+	.col-2-4 {
+		order: -1;
 	}
 
 }
@@ -88,7 +94,8 @@ div img {
 	.col-1-4 {
 		flex: 0 0 20%;
 	}
-	.col-2 {
+	.col-2,
+	.col-2-4 {
 		flex: 0 0 44%;
 	}
 	.col-3 {
@@ -96,5 +103,8 @@ div img {
 	}
 	.col-4 {
 		flex: 0 0 92%;
+	}
+	.col-2-4 {
+		order: initial;
 	}
 }
