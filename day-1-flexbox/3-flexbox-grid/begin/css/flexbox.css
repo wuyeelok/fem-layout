@@ -38,6 +38,8 @@ div img {
 
 [class*="col-"] {
 	margin-left: 4%;
+	flex: 0 0 92%;
+
 
 	display: flex;
 	flex-flow: column nowrap;
