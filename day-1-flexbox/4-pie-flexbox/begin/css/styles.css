@@ -152,7 +152,19 @@ footer a {
   width: 96.66666%;
 }
 
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
 
+.row ul {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+ul li {
+  flex: 0 0 50%;
+}
 
 /* Small devices (tablets, 768px and up) */
 /*
