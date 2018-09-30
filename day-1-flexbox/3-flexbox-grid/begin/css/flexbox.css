@@ -40,6 +40,10 @@ div img {
 	margin-left: 4%;
 }
 
+.col-1 {
+	background-color: #ffc;
+}
+
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
 
