@@ -33,6 +33,7 @@ div img {
 /* grid system -- mobile first! */
 .row {
 	display: flex;
+	flex-flow: row wrap;
 }
 
 /* Mobile Landscape Screen Sizes */
