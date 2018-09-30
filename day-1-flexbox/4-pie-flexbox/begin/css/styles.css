@@ -167,8 +167,8 @@ ul li {
 }
 
 /* Small devices (tablets, 768px and up) */
-/*
-@media (min-width: 550px) and (max-width: 849px) { 
+
+@media (min-width: 550px)  { 
   .wrapper {
       width: 97%;
       max-width: 767px;
@@ -185,12 +185,15 @@ ul li {
 div.row {
   padding: 0 2em;
 }
+/*
 aside[class*='sidebar'] {
   float: left;
   width: 47%;
   margin-right: 3%;
 }
+*/
 
+/*
   nav li,
   nav li:nth-child(even),
   nav li:nth-child(odd) {
@@ -199,8 +202,16 @@ aside[class*='sidebar'] {
     width: auto;
     padding: 0;
   }
+  */
   nav a {
       padding: 0em 1em 0em 1em;
+  }
+
+  .row ul{
+    width: 100%;
+  }
+  ul li {
+    flex: 0 0 auto;
   }
 }
 /* Large devices (large desktops, 1200px and up) */
