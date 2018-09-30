@@ -161,6 +161,8 @@ footer a {
 .row ul {
   display: flex;
   flex-flow: row wrap;
+  width: 100%;
+  
 }
 
 ul li {
@@ -176,14 +178,7 @@ ul li {
       max-width: 767px;
       float: none;
   }
- .col-1,
- .col-2,
- .col-1-2,
-.col-3,
-.col-4,
-.col-1-4 {
-  width: 96.66666%;
-}
+
 div.row {
   padding: 0 2em;
 }
@@ -232,7 +227,7 @@ aside[class*='sidebar'] {
   }
 }
 /* Large devices (large desktops, 1200px and up) */
-/*
+
 @media (min-width: 850px) { 
   .wrapper {
       width: 97%;
@@ -240,11 +235,22 @@ aside[class*='sidebar'] {
       float: none;
   }
 
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-1-2,
+  .col-1-4  {
+    margin-left: 4%;
+  }
+
+  /*
   [class*='col-'] {
     float: left;
     margin-left: 3.33333%;
     min-height: 1px;
   }
+  */
   .col-1,
   .col-1-2,
   .col-1-4 {
@@ -279,5 +285,19 @@ aside[class*='sidebar'] {
   }
   nav a {
       padding: 0em 1em 0em 1em;
+  }
+
+  .col-3 {
+    flex: 0 0 70%;
+  }
+  .col-1 {
+    flex-flow: row wrap;
+    justify-content: initial;
+    flex: 0 0 20%;
+  }
+
+  .col-1 .sidebar-primary,
+  .col-1 .sidebar-secondary {
+    flex: 0 0 94%;
   }
 }
