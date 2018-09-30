@@ -31,7 +31,9 @@ div img {
 }
 
 /* grid system -- mobile first! */
-
+.row {
+	display: flex;
+}
 
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
