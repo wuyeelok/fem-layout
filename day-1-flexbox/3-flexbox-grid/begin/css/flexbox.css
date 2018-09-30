@@ -44,6 +44,19 @@ div img {
 	background-color: #ffc;
 }
 
+.col-2 {
+	background-color: #ccf;
+}
+
+.col-3 {
+	background-color: #fcf;
+}
+
+.col-4 {
+	background-color: #cff;
+}
+
+
 /* Mobile Landscape Screen Sizes */
 @media only screen and (min-width: 480px)  {
 
@@ -55,5 +68,11 @@ div img {
 	}
 	.col-2 {
 		flex: 0 0 44%;
+	}
+	.col-3 {
+		flex: 0 0 68%;
+	}
+	.col-4 {
+		flex: 0 0 92%;
 	}
 }
