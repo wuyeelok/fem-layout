@@ -1,0 +1,13 @@
+/* base style */
+.wrapper {
+    width: 100%;
+    background: blue;
+    padding: 10px;
+}
+
+[class*="col-"] {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    margin: 3px;
+}
