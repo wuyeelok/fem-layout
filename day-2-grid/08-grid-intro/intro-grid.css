@@ -6,8 +6,15 @@
 }
 
 [class*="col-"] {
-    width: 100px;
-    height: 100px;
+    min-width: 100px;
+    min-height: 100px;
     background: yellow;
-    margin: 3px;
+    
+}
+
+/* Grid */
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px
 }
