@@ -152,6 +152,20 @@ footer a {
 .reverse {
   flex-direction: row-reverse;
 }
+ul.gallery {
+  list-style: none;
+  padding: 0;
+  margin: 1px;
+
+  display: flex;
+  flex-flow: row wrap;
+}
+ul.gallery li {
+  flex: 0 0 100%;
+}
+ul.gallery img {
+  width: 100%;
+}
 
 @media (min-width: 1px) {
   body {
@@ -197,9 +211,11 @@ div.row {
     margin-left: 0%;
     margin-right: 4%;
   }
-
   body {
     background: url(../img/sitecomp_02.png);
+  }
+  ul.gallery li {
+    flex: 0 0 50%;
   }
 }
 /* Large devices (large desktops, 1200px and up) */
@@ -259,8 +275,10 @@ div.row {
   .order-fourth {
     order: 4;
   }
-
   body {
     background: url(../img/clouds.png);
+  }
+  ul.gallery li {
+    flex: 0 0 33%;
   }
 }
