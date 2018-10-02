@@ -45,7 +45,7 @@ div {
 	grid-column: 3/4;
 	background-color: yellow;
 }
-@media (min-device-width: 750px) and (max-device-width: 950px)  {
+@media (min-width: 750px) and (max-width: 950px)  {
   	.wrapper {
 		grid-template-rows: 0.12fr 0.12fr 0.42fr 0.34fr; /* 61px 61px 210px 170px */
 		grid-template-columns: 0.08fr 0.69fr 0.23fr; /* 42px 376px 124px*/
@@ -82,7 +82,7 @@ div {
 		grid-column: 1/2;
 	}
 }
-@media (max-device-width: 749px)  {
+@media (max-width: 749px)  {
 	.wrapper {
 	  display: block;
 	  background-color: orange;
