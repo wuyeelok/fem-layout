@@ -8,6 +8,7 @@
   grid-gap: 10px;
   grid-template-columns: 300px 90px 140px 70px;
   grid-template-rows: 90px 60px 60px 60px 140px;
+  background-color: black;
 }
 div {
 	border: 1px solid black;
